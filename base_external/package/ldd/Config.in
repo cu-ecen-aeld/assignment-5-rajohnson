@@ -1,0 +1,5 @@
+
+config BR2_PACKAGE_LDD
+	bool "LDD"
+	help
+	  Scull and misc-modules from Linux Device Drivers.
