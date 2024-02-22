@@ -1,0 +1,15 @@
+#! /bin/sh
+
+case "$1" in
+	start)
+		echo "Starting ldd"
+		;;
+	stop)
+		echo "Stopping ldd"
+		;;
+	*)
+		echo "Usage: $0 {start|stop}"
+	exit 1
+esac
+
+exit 0
